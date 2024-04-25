@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wall</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="upload">Upload</string>
+    <string name="post">Post</string>
+    <string name="wall">Wall</string>
+</resources>
