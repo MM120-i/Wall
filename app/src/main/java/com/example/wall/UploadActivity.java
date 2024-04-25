@@ -1,6 +1,5 @@
 package com.example.wall;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +16,7 @@ public class UploadActivity extends AppCompatActivity{
     private Button buttonPost;
     private GridView gridViewGallery;
     private ImageView imageViewZoomed;
-    private static final int REQUEST_CODE_SELECT_IMAGE = 100;
+    //private static final int REQUEST_CODE_SELECT_IMAGE = 100;
     private ActivityResultLauncher<String> galleryLauncher;
 
     @Override

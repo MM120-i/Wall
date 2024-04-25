@@ -15,7 +15,6 @@
         android:layout_margin="16dp"/>
 
 
-    <!-- GridView for User's Gallery -->
     <GridView
         android:id="@+id/gridViewGallery"
         android:layout_width="match_parent"
@@ -26,12 +25,12 @@
         android:horizontalSpacing="8dp"
         android:padding="8dp"/>
 
-    <!-- ImageView for Zoomed Picture (Initially Invisible) -->
     <ImageView
         android:id="@+id/imageViewZoomed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitCenter"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:contentDescription="@string/todo" /> <!-- TODO: Write a content description. -->
 
 </RelativeLayout>

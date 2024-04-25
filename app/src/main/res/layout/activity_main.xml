@@ -14,7 +14,6 @@
         android:padding="20dp"
         tools:ignore="UselessParent">
 
-        <!-- Email/Username Input -->
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
@@ -23,7 +22,6 @@
             android:inputType="textEmailAddress"
             android:autofillHints="Username or Email" />
 
-        <!-- Password Input -->
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
@@ -32,14 +30,12 @@
             android:inputType="textPassword"
             android:autofillHints="Password" />
 
-        <!-- Login Button -->
         <Button
             android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login" />
 
-        <!-- Signup Button -->
         <Button
             android:id="@+id/buttonSignup"
             android:layout_width="match_parent"
